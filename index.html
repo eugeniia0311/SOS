@@ -5,17 +5,44 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/section.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/typography.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/hero.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<section class="hero">
+	<section class="-hero">
+		<div class="container">
+			<header>
+				<img src="assets/img/SOS-logo.png" class="header__logo">
+				<nav class="nav">
+					<a class="nav__link">main</a>
+					<a class="nav__link">about</a>
+					<a class="nav__link">game features</a>
+					<a class="nav__link">system requirements</a>
+					<a class="nav__link">quotes</a>
+				</nav>
+				<div class="header__actions">
+					<div class="header__lang">eng</div>
+					<div class="header__partners">
+						<a class="partner" href=""><img src="assets/img/X-box.png" alt=""></a>
+						<a class="partner" href=""><img src="assets/img/Steam.png" alt=""></a> <!-- ссылки (а) -->
+					</div>
+				</div>
+			</header>
+		</div>
 		<div class="container">
 			<div class="content">
-				<header>
-
-				</header>
+				<h1 class="title"></h1>
+				<h2 class="subtitle"></h2>
+				<a class="button">
+					<span>Buy on Steam</span>
+					<span>$14.99</span>
+				</a>
 			</div>
 		</div>
+		<button class="scroll-down">the story</button> 
 	</section>
 </body>
 </html>

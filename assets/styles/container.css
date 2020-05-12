@@ -22,13 +22,14 @@
 }
 
 @media screen and (max-width: 940px){
-	.container{
+	.container {
 		width:750px;
 	}
 }
 
 @media screen and (max-width: 767px){
-	.container{
+	.container {
 		width:100%;
+		padding: 0 15px;
 	}
 }
