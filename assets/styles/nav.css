@@ -1,0 +1,11 @@
+.nav__link{
+	margin-right: 50px;
+	text-transform: uppercase;
+	color: var(--c-white);
+	font-weight: 700; 
+	font-size: 12px;
+}
+
+.nav :last-child {
+	margin:0;
+}

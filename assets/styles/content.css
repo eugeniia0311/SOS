@@ -1,0 +1,39 @@
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+
+.content h1{
+	letter-spacing: 2px;
+}
+
+.button{
+	margin-top: 15px;
+	color: var(--c-black);
+	border-radius: 6px;
+	text-align: center;
+	padding: 15px 20px;
+	background: var(--c-orange-gradient);
+	font-weight: 700;
+}
+
+.button__divider{
+	height: 30px;
+	width: 1px;
+	border: var(--c-black) 1px solid;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+.scroll-down{
+	background: 0;
+	border:0;
+	color: var(--c-white);
+	font-family: "OpenSans-Regular";
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 50px;
+}

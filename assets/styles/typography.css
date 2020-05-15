@@ -1,10 +1,26 @@
 .title {
 	font-weight: bold;
 	font-size: 80px;
+	font-family: "BebasNeue";
+	color: var(--c-white);
 }
 
 .subtitle {
 	font-weight: bold;
 	font-size: 24px;
+	font-family: "BebasNeue";
+	color: var(--c-white);
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+@font-face{
+	font-family: OpenSans-Regular;
+	src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face{
+	font-family: BebasNeue;
+	src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf');
 }
 
