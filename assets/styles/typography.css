@@ -3,6 +3,7 @@
 	font-size: 80px;
 	font-family: "BebasNeue";
 	color: var(--c-white);
+	text-transform: uppercase;
 }
 
 .subtitle {
@@ -12,6 +13,7 @@
 	color: var(--c-white);
 	letter-spacing: 2px;
 	font-weight: 300;
+	text-transform: uppercase;
 }
 
 @font-face{

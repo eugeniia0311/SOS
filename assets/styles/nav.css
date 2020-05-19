@@ -9,3 +9,15 @@
 .nav :last-child {
 	margin:0;
 }
+
+@media screen and (max-width: 970px){
+	.nav__link{
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.nav__link{
+		display: none;
+	}
+}
