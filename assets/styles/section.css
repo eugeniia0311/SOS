@@ -16,3 +16,7 @@ section.-hero {
 	align-items: center;
 	justify-content: space-between;
 }
+
+section.-about{
+	background-image: url(../img/about-bg.jpg);	
+}

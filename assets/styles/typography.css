@@ -16,6 +16,18 @@
 	text-transform: uppercase;
 }
 
+.text{
+	font-family: "OpenSans-Regular";
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: normal;
+	color: var(--c-white);
+}
+
+.text + .text{
+	margin-top: 15px;
+}
+
 @font-face{
 	font-family: OpenSans-Regular;
 	src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
