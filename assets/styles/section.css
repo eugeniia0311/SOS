@@ -20,3 +20,15 @@ section.-hero {
 section.-about{
 	background-image: url(../img/about-bg.jpg);	
 }
+
+section.-game_features{
+	background-image: url(../img/muzhik-bg.jpg);
+}
+
+section.-syst_req{
+	background-image: url(../img/grobnitsa-bg.jpg);
+}
+
+/*section.-press_quotes{
+	background-image: url(../img/grobnitsa-bg.jpg);
+}*/
