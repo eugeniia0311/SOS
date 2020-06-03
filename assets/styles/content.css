@@ -1,0 +1,30 @@
+.content.-feature{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.content.-hero{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content: center;
+}
+
+.content.-hero h1{
+	letter-spacing: 2px;
+}
+
+.content.-about{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+@media screen and (max-width: 768px){
+		.content.-about{
+			flex-direction: column;
+			align-items: center;		
+
+		}
+}		

@@ -1,0 +1,152 @@
+div.-press_quotes{
+		background-image: url(../img/pesochek-bg.png);
+		width: 100%;
+		align-self: center;
+		min-height: 100vh;
+		background-size:cover;
+}
+
+.quotes{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	align-self:center;
+	min-height: 100vh;
+	width: 100%;
+}
+
+div.-press_quotes{
+	align-self: center;
+	min-height: 100vh;
+}
+
+div.-subscribe{
+	min-height: 100vh;
+	display: flex;
+	align-self: flex-end;
+}
+
+
+.quotes__info{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.quotes__text{
+	width: 350px;
+	margin-bottom: 30px;
+	mask-type: 30px;
+}
+
+.quotes__reviews{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+
+
+
+.review + .review{
+	margin-top: 30px;
+}
+
+.review{
+	background-color: var(--c-gray-d);
+	padding: 15px;
+	border-radius: 10px;
+	align-self: flex-end;
+}
+
+.review.-left{
+	align-self: flex-start;
+}
+
+.review.-middle{
+	margin-right: 30px;
+}
+
+.img{
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	align-self: flex-start;
+	margin-right: 15px;
+	box-shadow: 4px 5px 0px var(--c-orange);
+}
+
+.img.-one{
+	background-image: url(../img/men.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.img.-two{
+	background-image: url(../img/women.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.img.-three{
+	background-image: url(../img/men1.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.review__top{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.review__top .text{
+	font-size: 18px;
+	color: var(--c-gray-l);
+	margin-bottom: 15px;	
+}
+
+.date{
+	margin-top: 15px;
+	color: var(--c-gray-l);
+	font-family: "OpenSans-Regular";
+	font-weight: normal;
+}
+
+@media screen and (max-width: 768px){
+	.quotes{
+		flex-direction: column;
+	}
+
+	.review{
+		width: 95%;
+		align-self: center;
+	}
+
+	.review.-left{
+		align-self: center;
+	}
+
+	.quotes__reviews{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.review.-middle{
+		margin-right: 0;
+	}
+
+	.quotes__info{
+		width: 100%;
+		align-items: center;
+		margin-top: 15px;
+	}
+
+	.quotes__text{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+}

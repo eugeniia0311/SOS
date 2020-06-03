@@ -21,14 +21,22 @@ section.-about{
 	background-image: url(../img/about-bg.jpg);	
 }
 
-section.-game_features{
+section.-feature{
 	background-image: url(../img/muzhik-bg.jpg);
+/*	min-height: 110vh;*/
 }
 
 section.-syst_req{
 	background-image: url(../img/grobnitsa-bg.jpg);
 }
 
-/*section.-press_quotes{
-	background-image: url(../img/grobnitsa-bg.jpg);
-}*/
+
+
+section.-two-in-one {
+	background-image: url(../img/duo-bg.jpg);
+	height: 200vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

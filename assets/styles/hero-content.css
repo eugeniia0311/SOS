@@ -1,13 +1,6 @@
-.content.-hero{
-	display: flex;
-	flex-direction: column;
-	align-items:center;
-	justify-content: center;
-}
 
-.content.-hero h1{
-	letter-spacing: 2px;
-}
+
+
 
 .button{
 	margin-top: 15px;

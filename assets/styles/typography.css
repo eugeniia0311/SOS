@@ -4,6 +4,7 @@
 	font-family: "BebasNeue";
 	color: var(--c-white);
 	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 .subtitle {

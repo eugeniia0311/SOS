@@ -1,0 +1,58 @@
+.feature{
+	width: 415px;
+}
+
+.feature___header{
+	margin-bottom: 70px;
+}
+
+.feature__title{
+	font-size: 36px;
+	color: var(--c-orange);
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: "BebasNeue";
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.feature__list{
+	padding-left: 40px;
+}
+
+.feature__item{
+	position: relative;
+}
+
+.feature__item + .feature__item{
+	mask-type: 30px;
+}
+
+.feature__item:before {
+	display: block;
+	content: "";
+	border-radius: 50%;
+	width: 11px;
+	height: 11px;
+	border:1px solid var(--c-white);
+	position: absolute;
+	left: -40px;
+	top: 19px;
+}
+
+.feature__item.-active:before{
+	background-color: var(--c-white);
+}
+
+.feature__item.-active:after{
+	display: block;
+	content: "";
+	position: absolute;
+	width: 1px;
+	background-color: var(--c-white);
+
+	top: 20px;
+	bottom: -20px;
+	left: -34px;
+
+}

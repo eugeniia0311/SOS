@@ -2,6 +2,11 @@ body, h1, h2, h3, h4, h5, p, a, ul, ol {
 	margin: 0;
 	padding: 0;
 	font-family: "OpenSans-Regular";
+	color: var(--c-white);
+}
+
+ul, ol{
+	list-style-type: none;
 }
 
 img {
