@@ -1,9 +1,10 @@
-div.-press_quotes{
+section.-press_quotes{
 		background-image: url(../img/pesochek-bg.png);
 		width: 100%;
 		align-self: center;
 		min-height: 100vh;
 		background-size:cover;
+		width: 100%;
 }
 
 .quotes{
@@ -13,6 +14,8 @@ div.-press_quotes{
 	align-self:center;
 	min-height: 100vh;
 	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 }
 
 div.-press_quotes{
