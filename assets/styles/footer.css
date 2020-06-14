@@ -14,11 +14,27 @@
 	padding-bottom: 15px;
 }
 
-.websites__img{
-	margin-right: 15px;
-	width: 50px;
-}
-
-.footer__top img{
+.logo{
 	width: 70px;
 }
+
+.websites__img{
+	margin-right: 25px;
+	width: 30px;
+	align-self: center;
+}
+
+.websites__img.-first{
+	width: 15px;
+}
+
+.reserved{
+	color: var(--c-gray-l);
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.data{
+	font-family: "OpenSans-Regular";
+}
+
