@@ -70,6 +70,7 @@ div.-subscribe{
 
 .review.-middle{
 	margin-right: 30px;
+	margin-right: 0;
 }
 
 .img{
@@ -118,9 +119,10 @@ div.-subscribe{
 	font-weight: normal;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 	.quotes{
 		flex-direction: column;
+		justify-content: center;
 	}
 
 	.review{
@@ -139,6 +141,7 @@ div.-subscribe{
 
 	.review.-middle{
 		margin-right: 0;
+		width: 100%;
 	}
 
 	.quotes__info{

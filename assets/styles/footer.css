@@ -1,0 +1,24 @@
+.footer__top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: 1px solid var(--c-gray-l);
+	padding-bottom: 15px;
+}
+
+.footer__bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+
+.websites__img{
+	margin-right: 15px;
+	width: 50px;
+}
+
+.footer__top img{
+	width: 70px;
+}

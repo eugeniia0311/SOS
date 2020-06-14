@@ -82,6 +82,10 @@
 	.subscribe__title .title{
 		font-size: 47px;
 	}
+
+	.email__adress{
+		font-size: 8px;
+	}
 }
 
 @media screen and (max-width: 945px){
@@ -103,14 +107,57 @@
 
 @media screen and (max-width: 768px){
 	.subscribe__img img{
-		position: absolute;
-		width: 300px;
-		left: 0;
-		bottom:-2;
+		display: none;
+		width: 0;
+	}
+
+	.subscribe__info{
+		width: 100%;
+		align-self: center;
+		padding: 0;
+		margin: 0;
+
 	}
 
 	.subscribe{
 		position: relative;
 		margin-top: 30px;
+		align-items: center;
+		display: flex;
+		justify-content: flex-start;
+
+	}
+
+
+	.subscribe__form{
+		position: relative;
+	}
+
+	section.-subscribe{
+		background-image: url(../img/mask.png);
+		background-position-x:-100px;
+		background-size: 500px;
+	}
+
+}
+
+@media screen and (max-width: 540px){
+	.email__adress h3{
+		font-size: 14px;
+	}
+
+	.email__adress{
+		position: absolute;
+		width: 100%;
+		left: -40%;
+	}
+
+	.subscribe__form .button{
+		position: absolute;
+		right: 0;
+	}
+
+	.subscribe__info h2{
+		align-self: flex-start;
 	}
 }
